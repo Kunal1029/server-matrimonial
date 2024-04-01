@@ -9,6 +9,7 @@ dotenv.config();
 //     password: 'Rajgupta@1234',
 //     database: 'testing'
 // });
+
 const pool = mysql.createPool({
     host: process.env.HOST,
     port: process.env.PORT, // Optional, defaults to 3306
